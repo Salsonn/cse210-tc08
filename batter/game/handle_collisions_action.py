@@ -18,8 +18,11 @@ class HandleCollisionsAction(Action):
         ball = cast["ball"][0] # there's only one
         paddle = cast["paddle"][0] # there's only one
         brick = cast["brick"]
-        ball.set_text("")
+        for brick in brick:
+            if ball.get_position().equals(brick.get_position()):
+                brick.set_text("")
+        """ ball.set_text("")
         for brick in brick:
             if paddle.get_position().equals(brick.get_position()):
                 description = brick.get_description()
-                ball.set_text(description) 
+                ball.set_text(description) """
