@@ -40,3 +40,5 @@ root                    (project root folder)
 ## Authors
 ---
 * Caleb Salyards - sal18014@byui.edu
+* Tyler Caldron - cal16026@byui.edu
+* 
