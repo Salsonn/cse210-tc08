@@ -38,4 +38,5 @@ class Director:
             tag (string): The given tag.
         """ 
         for action in self._script[tag]:
-            action.execute(self._cast)
+            if action.execute(self._cast) == "End":
+                exit()
