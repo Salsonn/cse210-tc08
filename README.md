@@ -41,4 +41,4 @@ root                    (project root folder)
 ---
 * Caleb Salyards - sal18014@byui.edu
 * Tyler Caldron - cal16026@byui.edu
-* 
+* Josh Thieme - thi17001@byui.edu
